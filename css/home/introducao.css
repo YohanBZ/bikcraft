@@ -1,6 +1,6 @@
 
 .introducao-bg {
-  background-color: var(--color-12) url('../../img/dec/bottom-left.svg') no-repeat bottom 160px left 20px;
+  background-color: var(--color-12);
   box-shadow: inset 0px -120px  #ffffff;
 }
 
@@ -16,7 +16,6 @@
 }
 
 .introducao img {
-  width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 4px;
