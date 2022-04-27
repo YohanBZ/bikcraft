@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body id="seguros">
     <header class="header-bg">
@@ -34,13 +35,13 @@
     <main  class="seguros-bg">
       <div class="titulo-bg">
         <div class="titulo container">
-          <p class="font-2-l-b color-5">Escolha o seguro</p>
-          <h1 class="font-1-xxl color-0">você seguro<span class="color-p1">.</span></h1>
+          <p class="font-2-l-b color-5"data-anime="200" >Escolha o seguro</p>
+          <h1 class="font-1-xxl color-0" data-anime="300" >você seguro<span class="color-p1">.</span></h1>
         </div>
       </div>
 
       <div class="seguros container">
-           <div class="seguros-item">
+           <div class="seguros-item fadeInLeft" data-anime="500">
                <h3   class="font-1-xl color-6">PRATA</h3>
                <span class="font-1-xl color-0">R$ 199 <span class="font-1-xs color-6">mensal</span></span>
                <ul class="font-2-m color-0">
@@ -51,7 +52,7 @@
                </ul>
                 <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
            </div>
-           <div class="seguros-item">
+           <div class="seguros-item fadeInRight" data-anime="600" >
              <h3   class="font-1-xl color-p1">OURO</h3>
              <span class="font-1-xl color-0">R$ 299 <span class="font-1-xs color-6">mensal</span></span>
              <ul class="font-2-m color-0">
@@ -172,7 +173,7 @@
          <p class="footer-copy font-2-m color-6">Bikcraft © Alguns direitos reservados.</p>
       </div>
     </footer>
-  
+   <script src="./js/plugins/simple-anime.js"></script>
  <script src="./js/script.js"></script>
 </body>
 </html>
