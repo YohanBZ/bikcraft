@@ -36,13 +36,13 @@
     <main>
       <div class="titulo-bg">
         <div class="titulo container">
-          <p class="font-2-l-b color-5">Cotações no seu email</p>
-          <h1 class="font-1-xxl color-0">solicite um orçamento<span class="color-p1">.</span></h1>
+          <p class="font-2-l-b color-5 fadeInRight" data-anime="200">Cotações no seu email</p>
+          <h1 class="font-1-xxl color-0 fadeInRight" data-anime="300">solicite um orçamento<span class="color-p1">.</span></h1>
         </div>
       </div>
 
-      <form  class="orcamento container" action="./enviar.php" method="post">
-          <div class="orcamento-produto">
+      <form  class="orcamento container fadeInUp" action="./enviar.php" method="post" data-anime="400">
+          <div class="orcamento-produto" >
               <h2 class="font-1-xs color-5">Bikcraft ou Seguro?</h2>
 
               <input type="radio" name="tipo" value="bikcraft" id="bikcraft">
@@ -185,8 +185,8 @@
          <p class="footer-copy font-2-m color-6">Bikcraft © Alguns direitos reservados.</p>
       </div>
     </footer>
-  
- <script src="./js/script.js"></script>
+    <script src="./js/plugins/simple-anime.js"></script>
+   <script src="./js/script.js"></script>
  <script src="./js/formulario.js"></script>
 </body>
 </html>
